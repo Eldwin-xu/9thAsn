@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C40D1B0E-86CD-473D-A051-49A214719D6B}" SchemaVersion="97" RootDocumentID="{8EB4E450-10F5-4C70-BD9C-4493E7B5CC56}">
+	<AudioObjects>
+		<WorkUnit Name="Basic" ID="{C40D1B0E-86CD-473D-A051-49A214719D6B}" OwnerID="{8EB4E450-10F5-4C70-BD9C-4493E7B5CC56}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{41581567-7A9A-493B-A563-6D66A4F28599}" ShortID="330618127">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{9CCA69E6-8D9D-4872-917D-49469786CB19}">
+							<Language>SFX</Language>
+							<AudioFile>GameAudio\zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter.com).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="582305399"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{9CCA69E6-8D9D-4872-917D-49469786CB19}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

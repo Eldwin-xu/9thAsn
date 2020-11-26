@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8EB4E450-10F5-4C70-BD9C-4493E7B5CC56}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{8EB4E450-10F5-4C70-BD9C-4493E7B5CC56}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="GameAudio_Randomize" ID="{FF8FE6C8-7224-4B79-B075-7FC62B83D888}" ShortID="750564971">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{13389328-E733-46F3-AED6-8DFBDBF46B50}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="300"/>
+											<Property Name="Min" Type="Real64" Value="-600"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{2E604703-8D7F-47EA-8BB1-231E3E8DEBBA}" ShortID="919988900">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{A6EFB81B-CD4F-4252-B84B-99B43CD4312A}">
+									<Language>SFX</Language>
+									<AudioFile>GameAudio\zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="582305399"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{A6EFB81B-CD4F-4252-B84B-99B43CD4312A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_002_59161" ID="{EC4331BD-904E-4543-899B-56703389AAE8}" ShortID="979083922">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_002_59161" ID="{AC2BB758-431C-4EEE-9AF3-E129525F4EE7}">
+									<Language>SFX</Language>
+									<AudioFile>GameAudio\zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_002_59161.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="858800954"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_002_59161" ID="{AC2BB758-431C-4EEE-9AF3-E129525F4EE7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162" ID="{D929FAB9-52B4-460C-A047-5590A1F0FC9D}" ShortID="537299980">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162" ID="{629EC0C4-A9B5-4CB3-82EB-24D09E227173}">
+									<Language>SFX</Language>
+									<AudioFile>GameAudio\zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="330704233"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162" ID="{629EC0C4-A9B5-4CB3-82EB-24D09E227173}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_002_59163" ID="{A205A5A1-2E30-4B35-A80D-C19226D1FC42}" ShortID="444604070">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_002_59163" ID="{0C8D2B41-CD58-47C6-B8D6-86141A8EE0B8}">
+									<Language>SFX</Language>
+									<AudioFile>GameAudio\zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_002_59163.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="245587065"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_002_59163" ID="{0C8D2B41-CD58-47C6-B8D6-86141A8EE0B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="GameAudio_Sequence" ID="{B680B77B-F72B-411F-B80F-0C2B2464A2C2}" ShortID="612859306">
+					<PropertyList>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{E4C852B3-67BA-4FE2-85F8-864C4CDB9C9B}" ShortID="894376470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{447427ED-DC2F-4B3D-A908-8AFFEBB9C6A1}">
+									<Language>SFX</Language>
+									<AudioFile>GameAudio\zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="582305399"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{447427ED-DC2F-4B3D-A908-8AFFEBB9C6A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_002_59161" ID="{1C31296F-BEDC-4047-AFA0-CCE5E478727B}" ShortID="63653509">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_002_59161" ID="{9B589558-7874-46BD-9264-7FA0709A43AE}">
+									<Language>SFX</Language>
+									<AudioFile>GameAudio\zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_002_59161.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="858800954"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_002_59161" ID="{9B589558-7874-46BD-9264-7FA0709A43AE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162" ID="{91ED6EC2-67BE-4500-A80F-2EDE9D2628B9}" ShortID="618276884">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162" ID="{97161597-ADCD-4BA9-9A39-F9E7F374B674}">
+									<Language>SFX</Language>
+									<AudioFile>GameAudio\zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="330704233"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162" ID="{97161597-ADCD-4BA9-9A39-F9E7F374B674}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_002_59163" ID="{BEB88455-3161-49B5-937F-BC580B4901AB}" ShortID="472186637">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_002_59163" ID="{71899E81-3E64-4C6A-82D0-A9120575B65E}">
+									<Language>SFX</Language>
+									<AudioFile>GameAudio\zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_002_59163.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="245587065"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_002_59163" ID="{71899E81-3E64-4C6A-82D0-A9120575B65E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{E4C852B3-67BA-4FE2-85F8-864C4CDB9C9B}"/>
+						<ItemRef Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_002_59161" ID="{1C31296F-BEDC-4047-AFA0-CCE5E478727B}"/>
+						<ItemRef Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162" ID="{91ED6EC2-67BE-4500-A80F-2EDE9D2628B9}"/>
+						<ItemRef Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_002_59163" ID="{BEB88455-3161-49B5-937F-BC580B4901AB}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<BlendContainer Name="RainAudio_Blend" ID="{1C483AA0-69B8-4AFF-A5DD-434D8D19BAF4}" ShortID="265148351">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Rain" ID="{FE917FE0-F17A-45AE-BC00-C0930BA7E04B}" ShortID="165582487">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="56306__q-k__rain-01" ID="{CA40F277-7A78-4DF7-BDDE-8574DA556698}" ShortID="292721924">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{76EC387A-6AFC-433B-A5CD-385B610DE411}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="56306__q-k__rain-01" ID="{8E533CC3-4552-40DC-A2C2-6A754DCE44F4}">
+											<Language>SFX</Language>
+											<AudioFile>56306__q-k__rain-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="276491034"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="56306__q-k__rain-01" ID="{8E533CC3-4552-40DC-A2C2-6A754DCE44F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="237729__flathill__rain-and-thunder-4" ID="{69086F16-1EA5-4B2E-B9AB-514EDF1FE3B4}" ShortID="434727332">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{32F7B03A-CC4A-4671-B291-033605D7B630}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="237729__flathill__rain-and-thunder-4" ID="{76184489-007E-4507-9945-9FB5FBEFBC67}">
+											<Language>SFX</Language>
+											<AudioFile>237729__flathill__rain-and-thunder-4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="963495144"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="237729__flathill__rain-and-thunder-4" ID="{76184489-007E-4507-9945-9FB5FBEFBC67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="518863__idomusics__rain" ID="{7234A9D6-BEB5-4E00-A225-50A7B5B69B82}" ShortID="953409028">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{708FA016-08EF-4D47-B801-7294C33FF40D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="518863__idomusics__rain" ID="{91488223-7714-4783-86A2-66E806DD95CD}">
+											<Language>SFX</Language>
+											<AudioFile>518863__idomusics__rain.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="508963151"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="518863__idomusics__rain" ID="{91488223-7714-4783-86A2-66E806DD95CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="531947__straget__the-rain-falls-against-the-parasol" ID="{669B4CAB-E006-4AB0-B14F-604AF3B64DA2}" ShortID="414334938">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D84E85F4-5D61-4909-BCAC-00A413935FA0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="531947__straget__the-rain-falls-against-the-parasol" ID="{36AA79BF-4CFF-42DF-B0D5-84F1AEE84236}">
+											<Language>SFX</Language>
+											<AudioFile>531947__straget__the-rain-falls-against-the-parasol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1030057955"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="531947__straget__the-rain-falls-against-the-parasol" ID="{36AA79BF-4CFF-42DF-B0D5-84F1AEE84236}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Main Rain" ID="{CAFC73B0-AF6C-4F28-8464-180CAF63F36C}" ShortID="13624517">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Sound_Blend" ID="{D35A6E25-BBDC-4AFF-A4FB-7D0D94869AE5}" WorkUnitID="{1CC4216D-7324-4633-AFE7-139E893B45A0}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="56306__q-k__rain-01" ID="{CA40F277-7A78-4DF7-BDDE-8574DA556698}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>28.5340314136126</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="237729__flathill__rain-and-thunder-4" ID="{69086F16-1EA5-4B2E-B9AB-514EDF1FE3B4}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>18.717277486911</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>55.4973821989529</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="518863__idomusics__rain" ID="{7234A9D6-BEB5-4E00-A225-50A7B5B69B82}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>44.7643979057592</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>77.7486910994764</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="531947__straget__the-rain-falls-against-the-parasol" ID="{669B4CAB-E006-4AB0-B14F-604AF3B64DA2}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>68.3246073298429</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+				</BlendContainer>
+				<WorkUnit Name="Basic" ID="{C40D1B0E-86CD-473D-A051-49A214719D6B}" PersistMode="Reference"/>
+				<RandomSequenceContainer Name="RainAudio_Randomized_Ambisonics" ID="{A922E8BF-B154-4D7D-B155-68B9C3B598F5}" ShortID="538243799">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Weapon" ID="{CBDB3C45-8EBD-44D7-B7A4-57A7AB3FFD46}" WorkUnitID="{25202B22-996E-471B-832F-A45440DB2089}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Character" ID="{790736B0-FB40-4EB5-8D54-7E8F4A86FB06}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="56306__q-k__rain-01" ID="{FB05F1C9-4257-4E61-B39A-EB44BC5D823C}" ShortID="625137098">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="56306__q-k__rain-01" ID="{DC7ECA0C-1FC2-44F7-9FE5-423EB4051B1C}">
+									<Language>SFX</Language>
+									<AudioFile>56306__q-k__rain-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="276491034"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="56306__q-k__rain-01" ID="{DC7ECA0C-1FC2-44F7-9FE5-423EB4051B1C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="237729__flathill__rain-and-thunder-4" ID="{257C145B-2A2F-4A2F-827E-5114FC949424}" ShortID="968301241">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="237729__flathill__rain-and-thunder-4" ID="{4E70394A-9743-4B36-8B67-BCEF91907EE0}">
+									<Language>SFX</Language>
+									<AudioFile>237729__flathill__rain-and-thunder-4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="963495144"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="237729__flathill__rain-and-thunder-4" ID="{4E70394A-9743-4B36-8B67-BCEF91907EE0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="518863__idomusics__rain" ID="{ABD6347C-85EC-4FB0-A596-5FBE0527F338}" ShortID="473449885">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="518863__idomusics__rain" ID="{89E7A94B-C587-4E45-9092-46418FC2CDC9}">
+									<Language>SFX</Language>
+									<AudioFile>518863__idomusics__rain.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="508963151"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="518863__idomusics__rain" ID="{89E7A94B-C587-4E45-9092-46418FC2CDC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="531947__straget__the-rain-falls-against-the-parasol" ID="{D0CAAB0E-ED32-47E5-91F4-981D353E1D1E}" ShortID="323438952">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{468FB876-2383-4E9C-86C5-C5923B8EC8D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABF6EEE8-24C6-47CD-A388-582F431E9A60}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="531947__straget__the-rain-falls-against-the-parasol" ID="{E11FCBD8-5D9B-42E1-B36F-0BDBCCAD42D5}">
+									<Language>SFX</Language>
+									<AudioFile>531947__straget__the-rain-falls-against-the-parasol.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="45304666"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="531947__straget__the-rain-falls-against-the-parasol" ID="{E11FCBD8-5D9B-42E1-B36F-0BDBCCAD42D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

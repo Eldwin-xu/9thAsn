@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1CC4216D-7324-4633-AFE7-139E893B45A0}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{1CC4216D-7324-4633-AFE7-139E893B45A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Sound_Blend" ID="{D35A6E25-BBDC-4AFF-A4FB-7D0D94869AE5}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

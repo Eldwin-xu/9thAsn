@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{991A609A-7960-4FF0-86F2-E11D2CAEDA10}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{991A609A-7960-4FF0-86F2-E11D2CAEDA10}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_UI_Click" ID="{5CA15F0D-0EF7-4BCF-AF37-475525980890}">
+					<ChildrenList>
+						<Action Name="" ID="{A3D84630-33B2-458B-9F50-935BD742E459}" ShortID="225911331">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="zapsplat_multimedia_game_tone_short_bright_futuristic_beep_action_tone_001_59160 (online-audio-converter_com)" ID="{41581567-7A9A-493B-A563-6D66A4F28599}" WorkUnitID="{C40D1B0E-86CD-473D-A051-49A214719D6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rain" ID="{C764ACFB-801E-42C4-A211-941066CB1ECF}">
+					<ChildrenList>
+						<Action Name="" ID="{59947CCF-14DF-4D47-B447-EBF4FD6C2457}" ShortID="689035909">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RainAudio_Randomized_Ambisonics" ID="{A922E8BF-B154-4D7D-B155-68B9C3B598F5}" WorkUnitID="{8EB4E450-10F5-4C70-BD9C-4493E7B5CC56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

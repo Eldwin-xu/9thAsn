@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1749424733	Play_UI_Click			\Default Work Unit\Play_UI_Click	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1030057955	531947__straget__the-rain-falls-against-the-parasol	E:\Tsinghua Folder\游戏引擎原理与实践\9thAssignment\Asn9\.cache\Windows\SFX\531947__straget__the-rain-falls-against-the-parasol_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\531947__straget__the-rain-falls-against-the-parasol		10610824
+
